@@ -29,8 +29,6 @@
 .mainContant_leftside{
     order: -1;
     max-width: 522px;
-    
-
 }
 .mainContant_leftside_ButtonGroup{
     display: flex;
@@ -52,12 +50,14 @@ line-height: 16.41px;
     font-size: 20px;
     line-height: 23.44px;
     max-width: 466px;
+    margin: 0 0 37px 0;
 }
 
 .mainContant_leftside h1{
     font-size: 60px;
     line-height: 70.31px;
     max-width: 522px ;
+    margin: 0 0 17px 0;
 }
 
 h1,
