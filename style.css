@@ -9,6 +9,56 @@
     src: url("./front-face/Gilroy-Medium.ttf");
 }
   
+.navigation{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+.headerButtons{
+    display: flex;
+    gap: 25px;
+}
+.footer{
+    max-width: 1170px;
+    margin: 0 auto;   
+}
+.mainContant{
+    display: flex;
+    justify-content: space-between;
+}
+.mainContant_leftside{
+    order: -1;
+    max-width: 522px;
+    
+
+}
+.mainContant_leftside_ButtonGroup{
+    display: flex;
+    gap: 72px;
+
+}
+.logosContainer{
+    min-width: 1200;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a{
+font-size: 14px;
+line-height: 16.41px;
+}
+
+.mainContant_leftside p{
+    font-size: 20px;
+    line-height: 23.44px;
+    max-width: 466px;
+}
+
+.mainContant_leftside h1{
+    font-size: 60px;
+    line-height: 70.31px;
+    max-width: 522px ;
+}
 
 h1,
 h2,
@@ -36,13 +86,6 @@ a{
 .header{
     padding: 40px 0;
     margin-bottom: 37px;
-}
-.headerLogo
-{
-    margin: 0 0 0 375px;
-}
-.headerNavigation{
-    margin: -30px 0 0 849;
 }
 
 .main{
