@@ -8,6 +8,11 @@
     font-family: Gilroy-Medium;
     src: url("./front-face/Gilroy-Medium.ttf");
 }
+@font-face {
+    font-weight: 300; 
+    font-family: Gilroy-Regular;
+    src: url("./front-face/Gilroy-Regular.ttf");
+}
   
 .navigation{
     display: flex;
@@ -36,7 +41,8 @@
 
 }
 .logosContainer{
-    min-width: 1200;
+    max-width: 1200px;
+    margin: 177px auto;  
     display: flex;
     justify-content: space-between;
 }
@@ -59,7 +65,6 @@ line-height: 16.41px;
     max-width: 522px ;
     margin: 0 0 17px 0;
 }
-
 h1,
 h2,
 p
@@ -91,3 +96,112 @@ a{
 .main{
     margin-bottom: 53px;
 }
+.page2{
+    background-color: #FAFAFA;
+}
+
+
+.threBloxAboutFramework {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(3, 381px);
+    grid-template-rows: repeat(1, 291px);
+    gap: 30px;
+}
+
+.threBloxAboutFramework h2{
+font-family: Gilroy-Bold;
+font-size: 24px;
+line-height: 28.13px;
+}
+
+.threBloxAboutFramework h3{
+font-family: Gilroy-Bold;
+font-size: 11px;
+line-height: 16.5px;
+}
+
+.threBloxAboutFramework p{
+font-family: Gilroy-Regular;
+font-size: 15px;
+line-height: 22.5px;
+}
+
+.plaintWithThreCardWithChoose{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(1, 549px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.plaintWithThreCardWithChoose h2{
+font-family: Gilroy-Bold;
+font-size: 24px;
+line-height: 28.13px;
+}
+
+.plaintWithThreCardWithChoose p{
+font-family: Gilroy-Regular;
+font-size: 15px;
+line-height: 22.5px;
+text-align: center;
+}
+.cardWithChoose{
+    max-width: 370px;
+    max-height: 549px;
+    justify-content: center;
+}
+
+.cardWithChoose h2 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    margin: 25px auto 22px auto;
+    
+}
+.cardWithChoose p{
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: center;
+    
+}
+.cardWithChoose button{
+    text-align: center;
+    margin: 39px 110px 50px 110px;
+}
+
+
+.plaintWithThreCardWithChoose button{
+    background-image: url('./img/Rectangle\ 3.png');
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+}
+
+.threcardChoose h2{
+display: flex;
+justify-content: center;
+margin: 107px auto 0 auto; 
+font-family: Gilroy-Bold;
+font-size: 45px;
+line-height: 52.73px;
+}
+
+.threcardChoose p{
+display: flex;
+justify-content: center;
+font-family: Gilroy-Regular;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+max-width: 682px;
+margin: 19px auto; 
+color:  #666666;
+}
+
+
